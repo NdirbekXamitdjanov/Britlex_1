@@ -1,0 +1,128 @@
+:root {
+  --color-text: rgba(38, 50, 56, 1);
+  --bg-light: rgba(245, 245, 245, 1);
+  --desc-light: rgba(143, 149, 165, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: red solid 1px; */
+}
+
+.btn {
+  padding: 17px 57px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+.desc {
+  color: var(--desc-light);
+}
+
+.container {
+  width: 83%;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.1s linear;
+}
+
+a:hover {
+  border-bottom: 3px solid var(--color-text);
+}
+
+/* ========== main ============== */
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 0 103px 0;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 40px;
+}
+
+.logo {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+}
+
+.logo span {
+  opacity: 40%;
+}
+
+.nav__btn {
+  background-color: transparent;
+  border: 2px solid var(--color-text);
+  transition: 0.2s;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.nav__btn:hover {
+  background-color: var(--color-text);
+  color: white;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.home__section-left {
+  margin-top: 40px;
+}
+.home__sub-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub__title {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 80px;
+}
+.home__desc {
+  margin-top: 40px;
+  margin-bottom: 61px;
+  width: 81%;
+  font-size: 24px;
+}
+.home__btn {
+  background-color: var(--color-text);
+  border: none;
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  padding: 32px 117px;
+}
+.home__section-right {
+}
+
+/* =============== header section finished ============== */
