@@ -304,14 +304,13 @@ a:hover {
 
 /* ============== pricing section finished ============== */
 
+#contact {
+  margin-bottom: 133px;
+}
 #contact .container {
   display: flex;
   justify-content: center;
   gap: 112px;
-}
-.contact__section-right {
-}
-.contact__sedction-left {
 }
 .contact__subt-text {
   font-size: 48px;
@@ -342,4 +341,24 @@ form {
 }
 .contact__btn {
   height: 82px;
+}
+
+/*================= contact section finished ==============*/
+footer {
+  margin-bottom: 31px;
+}
+footer .container hr {
+  margin-bottom: 31px;
+  opacity: 50%;
+}
+.corp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.corp-terms {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  opacity: 90%;
 }
