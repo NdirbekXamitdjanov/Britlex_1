@@ -201,3 +201,48 @@ a:hover {
 }
 
 /* ============ skills section finished ==============  */
+#about {
+  padding: 252px 0 188px 0;
+}
+#about .container {
+  display: flex;
+  gap: 194px;
+}
+.left__sub-title {
+  margin-top: 30px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-bottom: 23px;
+  color: var(--color-text);
+}
+.left__desc {
+  width: 635 px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.statistic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}
+.stat-card {
+  text-align: center;
+}
+.stat-card span {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 80px;
+  color: var(--color-text);
+}
+.stat-card p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--desc-light);
+}
+.about__section-right {
+}
+
+/* ============ about section finished =============== */
