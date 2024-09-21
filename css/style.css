@@ -301,3 +301,45 @@ a:hover {
   line-height: 27px;
   opacity: 70%;
 }
+
+/* ============== pricing section finished ============== */
+
+#contact .container {
+  display: flex;
+  justify-content: center;
+  gap: 112px;
+}
+.contact__section-right {
+}
+.contact__sedction-left {
+}
+.contact__subt-text {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-top: 33px;
+}
+.conatc__desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 44vw;
+  margin-top: 37px;
+  margin-bottom: 52px;
+}
+form {
+  display: flex;
+  gap: 12px;
+}
+.contact__input {
+  width: 450px;
+  padding: 26px 33px 30px;
+  border: 1px solid var(--color-text);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.contact__btn {
+  height: 82px;
+}
